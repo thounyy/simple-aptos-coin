@@ -1,0 +1,10 @@
+[package]
+name = "CoinMint"
+version = "0.0.1"
+
+[addresses]
+simple_aptos_coin = "your address here"
+
+[dependencies]
+AptosFramework = { local = "/home/user/.../Aptos/aptos-core/aptos-move/framework/aptos-framework" }
+# AptosFramework = {git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'devnet', subdir = 'aptos-move/framework/aptos-framework'}
